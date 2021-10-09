@@ -6,14 +6,7 @@
         .container {
             width: 100%;
         }
-        .book-table-btn {
-            background-color: red;
-        }
 
-        .btn {
-            background-color: red;
-        }
-    
         .navbar {
             display: none;
         }
@@ -103,9 +96,6 @@
     }
     
     @media (max-width: 768px) {
-        .book-table-btn {
-            background-color: yellow;
-        }
 
         .motive-cards {
             flex-direction: column;
