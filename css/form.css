@@ -1,0 +1,72 @@
+    /* FORM SECTION */
+    /* FORM SECTION */
+    /* FORM SECTION */
+    /* FORM SECTION */
+
+
+.reservation {
+    width: 100%;
+    background-color: var(--secondary-bg-color);
+    padding: 2rem 0px;
+    overflow-x: hidden;
+}
+
+.reservation-form > div {
+    display :grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    padding: 2rem 0px;
+}
+
+.reservation-form input:focus, .reservation-form textarea:focus, #send-message-form input:focus, #send-message-form textarea:focus {
+    outline: none;
+    border:1px rgba(49, 222, 141,0.8) solid;
+    
+}
+
+.reservation-form input , .reservation-form textarea, #send-message-form input, #send-message-form textarea {
+    background-color: transparent;
+    border:1px rgba(49, 222, 141,0.3) solid;
+    padding: .7rem .5rem;
+    font-size: large;
+    color: white;
+}
+
+.reservation-form textarea {
+    grid-column: 1/4;
+}
+
+
+.reservation-form .btn, #send-message-form .btn {
+    display: block;
+    margin: auto;
+}
+
+.btn {
+    padding: .5rem 1.5rem;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    background-color: var(--secondary-text-color);
+    color: white;
+    font-size: 1.2rem;
+    transition: opacity .5s ease;
+}
+
+.btn:hover {
+    opacity: .8;
+}
+
+        /* CONTACT US FORM */
+        /* CONTACT US FORM */
+
+#send-message-form div{
+    display: grid;
+    grid-gap: 2rem;
+    grid-template-columns: repeat(2, 1fr);
+    margin-bottom: 2rem;
+}
+
+#send-message-form input:nth-of-type(3), #send-message-form textarea {
+    grid-column: 1/3;
+}
